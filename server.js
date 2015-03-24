@@ -1,8 +1,7 @@
 var express = require('express');
-var q = require('q');
 var app = express();
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/Public"));
 
 var port = 9091;
 

@@ -3,11 +3,23 @@
 <head>
     <title>Camden Gutzman | Web Developer</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
 </head>
 
-<body ng-controller="main">
+<body ng-controller="Main as main">
 <p>Site in progress...</p>
+    <header class="main-nav">
+        <nav class="menu-main-menu-container">
+            <ul class="menu-main-menu">
+                <li class="menu-item"><a href="/#/home">Home</a></li>
+                <li class="menu-item"><a href="/#/about">About Me</a></li>
+                <li class="menu-item"><a href="/projects">Projects</a></li>
+                <li class="menu-item"><a href="/resume">Resume</a></li>
+                <li class="menu-item"><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
 <ng-view></ng-view>
 
 
@@ -17,5 +29,9 @@
 <script src="js/app.js"></script>
 <!--<script src="js/services/mainService.js"></script>-->
 <script src="js/controllers/mainCtrl.js"></script>
+<script src="js/controllers/aboutCtrl.js"></script>
+<script src="js/controllers/homeCtrl.js"></script>
+
 </body>
 </html>
+

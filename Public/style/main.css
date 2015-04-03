@@ -55,3 +55,8 @@ ul.menu-main-menu {
     min-height: 600px;
 }
 
+.pdf-view object{
+    height: 800px;
+    margin-top: 20px;
+    border: solid 1px #666;
+}

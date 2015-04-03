@@ -1,5 +1,5 @@
 body {
-    background-color: #e5ffd2;
+    background-color: #ffffff;
 }
 
 .main-nav {
@@ -48,5 +48,10 @@ nav ul {
 
 ul.menu-main-menu {
     padding-left: 0px;
+}
+
+.home {
+    background-color: white;
+    min-height: 600px;
 }
 

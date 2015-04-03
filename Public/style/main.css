@@ -60,3 +60,10 @@ ul.menu-main-menu {
     margin-top: 20px;
     border: solid 1px #666;
 }
+
+.self-portrait {
+    width: 100%;
+    height: auto;
+    background-color: #585858;
+    padding: 0.25em;
+}

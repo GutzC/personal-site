@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    font-family: Calibri, sans-serif;
 }
 
 .main-nav {
@@ -50,6 +51,7 @@ ul.menu-main-menu {
     padding-left: 0px;
 }
 
+/*HOME View*/
 .home {
     background-color: white;
     min-height: 600px;
@@ -66,4 +68,20 @@ ul.menu-main-menu {
     height: auto;
     background-color: #585858;
     padding: 0.25em;
+}
+
+/*PROJECT View*/
+.project-name {
+    background-color: #C1E1A6;
+    margin: 15px 0;
+
+    /*text-align: center;*/
+}
+
+.nopadding {
+    padding-left: 0px !important;
+}
+
+.carousel {
+    border: solid 1px #666;
 }

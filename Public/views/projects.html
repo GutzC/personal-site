@@ -1,6 +1,42 @@
 <div class="container projects">
     <div class="row">
-        <div class="col-md-10 col-md-offset-2" >
+        <div class="col-md-10 col-md-offset-2 nopadding">
+            <div ng-repeat="project in projects.projects">
+                <row>
+                    <div class="col-md-12 nopadding">
+                        <div class="col-md-10 project-name">
+                            <h3>{{project.name}}</h3>
+                        </div>
+                    </div>
+                </row>
+                <row>
+                    <div class="col-md-5">
+                        <div style="height: 305px">
+                            <carousel interval="projects.myInterval">
+                                <slide ng-repeat="slide in project.screenshot" active="slide.active">
+                                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                                    <div class="carousel-caption">
+                                        <h4>{{slide.text}}</h4>
+                                        <!--<p>Slide {{$index}}</p>-->
+                                        <!-- May be able to use this $index to make clickable thumbnails and view larger images -->
+                                        <!-- Change color to orange -->
+                                    </div>
+                                </slide>
+                            </carousel>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <p>{{project.text}}</p>
+                        <a href="{{project.repository}}" target="_blank">Github Repository</a>
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li ng-repeat="language in project.languages">{{language}}</li>
+                        </ul>
+                    </div>
+                </row>
+
+            </div>
         </div>
     </div>
 </div>
+

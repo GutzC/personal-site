@@ -1,16 +1,46 @@
 <div class="container contact">
     <div class="row">
-        <div class="col-md-10 col-md-offset-2" >
-            <div class="social">
-                <a class="btn btn-social-icon btn-lg btn-github" target="_blank" href="http://github.com/GutzC">
-                    <i class="fa fa-github"></i>
-                </a>
-                <a class="btn btn-social-icon btn-lg btn-linkedin" target="_blank" href="http://www.linkedin.com/in/camdengutzman">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a class="btn btn-social-icon btn-lg btn-envelope" href="mailto:camdengutzman@gmail.com">
-                    <i class="fa fa-envelope"></i>
-                </a>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1 class="text-center">Contact me now!</h1>
+            <h3 class="text-center contact-sub">Get in touch and let's start the ball rolling.</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="social col-md-12">
+                <div class="col-md-2"></div>
+                <div class="col-md-1">
+                    <a class="btn btn-social-icon btn-lg btn-envelope" href="mailto:camdengutzman@gmail.com">
+                        <i class="fa fa-envelope fa-4x"></i>
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <a class="btn btn-social-icon btn-lg btn-phone" ng-click="contact.display_phone = !contact.display_phone">
+                                    <i class="fa fa-phone fa-4x"></i>
+                                </a>
+                            </div>
+                            <div class="row phone_number">
+                                <span ng-show="contact.display_phone">801-427-9518</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1">
+                    <a class="btn btn-social-icon btn-lg btn-github" target="_blank" href="http://github.com/GutzC">
+                        <i class="fa fa-github fa-4x"></i>
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <a class="btn btn-social-icon btn-lg btn-linkedin" target="_blank" href="http://www.linkedin.com/in/camdengutzman">
+                        <i class="fa fa-linkedin fa-4x"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -86,7 +86,41 @@ ul.menu-main-menu {
     border: solid 1px #666;
 }
 
-.carousel-caption {
+.caption {
     color: #FF9009;
     font-weight: bolder;
+}
+
+/*CONTACT VIEW*/
+.contact {
+    color: #585858;
+    margin-top: 80px;
+}
+
+.contact h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.fa {
+    color: #C1E1A6;
+}
+
+.fa:hover {
+    color: #585858;
+}
+
+.contact-sub {
+    color: #585858;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.social {
+    margin-top: 100px;
+}
+
+.phone_number {
+    white-space: nowrap;
+    font-size: 1.25em;
 }

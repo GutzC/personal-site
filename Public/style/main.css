@@ -85,3 +85,8 @@ ul.menu-main-menu {
 .carousel {
     border: solid 1px #666;
 }
+
+.carousel-caption {
+    color: #FF9009;
+    font-weight: bolder;
+}

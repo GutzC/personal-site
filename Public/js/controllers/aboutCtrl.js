@@ -8,7 +8,7 @@ app.controller("About", function(){
         },
         {
             link : "../../img/fidelity-investments_200x200.jpg",
-            description : "My past eight years have been spent working full-time in the Financial industry. My primary goals during this period were to learn how the financial markets work, learn how to manage my own finances, and then transition back into a career I am more passionate about. During this period, I was always a top performer, changing roles often to learn various aspects of the industry, and soaking up as much knowledge as I could. These goals have been achieved and it is now time to get back to an area more inline with my natural interests – software development."
+            description : "During the past eight years I have worked full-time in the Financial industry. My primary goals during this period were to learn how the financial markets work, learn how to manage my own finances, and then transition back into a career I am more passionate about. During this time, I was always a top performer, changing roles often to learn various aspects of the industry, and soaking up as much knowledge as I could. These goals have been achieved and it is now time to get back to an area more inline with my natural interests – software development."
         },
         {
             link : "../../img/devmtn860x860.png",

@@ -57,18 +57,14 @@ ul.menu-main-menu {
     min-height: 600px;
 }
 
-.pdf-view object{
-    height: 800px;
-    margin-top: 20px;
-    border: solid 1px #666;
-}
-
 .self-portrait {
     width: 100%;
     height: auto;
     background-color: #585858;
     padding: 0.25em;
 }
+
+
 
 /*PROJECT View*/
 .project-name {
@@ -123,4 +119,11 @@ ul.menu-main-menu {
 .phone_number {
     white-space: nowrap;
     font-size: 1.25em;
+}
+
+/* RESUME PAGE */
+.pdf-view object{
+    height: 800px;
+    margin-top: 20px;
+    border: solid 1px #666;
 }

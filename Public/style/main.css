@@ -87,13 +87,13 @@ ul.menu-main-menu {
 /*PROJECT View*/
 .project-name {
     background-color: #C1E1A6;
-    margin: 15px 0;
-
-    /*text-align: center;*/
 }
 
 .project-name h3 {
-    color: blue;
+    color: #585858;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nopadding {

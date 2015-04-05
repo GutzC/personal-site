@@ -15,7 +15,7 @@ app.controller("Projects", function(){
             screenshot: [{image: "../../img/sp-home.png", text: "Smite Pantheon"}, {image: "../../img/sp-gods.png", text: "God Information"}, { image: "../../img/sp-player-history.png", text: "Player History"}],
             repository: "https://github.com/GutzC/SmitePantheon",
             languages: ["HTML", "CSS", "Angular.JS", "Node/Express"],
-            text: "A simple fan site for one of my favorite games, Smite. I created this project as a method to practice the languages I learned during my time at DevMountain. It is a project still in progress, but allowed me to play around with a couple really interesting API's and CRUD calls."
+            text: "A simple fan site for one of my favorite games, Smite. I created this project as a method to practice the languages I learned during my time at DevMountain. The project is a work-in-progress, but allowed me to play around with a couple of really interesting API's."
         },
         {
             name: "Rocket Math (in-progress)",

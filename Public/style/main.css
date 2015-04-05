@@ -64,7 +64,25 @@ ul.menu-main-menu {
     padding: 0.25em;
 }
 
+/*ABOUT View*/
+.about-image {
+    width: 100%;
+    height: auto;
+    border-right: solid 1px #585858;
+    padding-right: 25px;
+}
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.about-current {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
 
 /*PROJECT View*/
 .project-name {
@@ -79,7 +97,7 @@ ul.menu-main-menu {
 }
 
 .carousel {
-    border: solid 1px #666;
+    border: solid 1px #585858;
 }
 
 .caption {

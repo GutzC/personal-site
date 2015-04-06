@@ -15,5 +15,5 @@ app.controller("About", function(){
             description : "I have finally jumped into front-end development with both feet, recently completing an intensive full-time, three-month 'boot camp' at DevMountain, where I was able to sit down and code/learn 10-12 hours each day. It was awesome! The primary languages studied were related to the full MEAN stack, but I can't wait to pick up additional languages/technologies/practices in the future."
         }
     ]
-    this.current = "I am now searching for my first full-time development position. I feel that this is a critical and exciting step for me.  I am a strong team player and will be an excellent addition to your organization.";
+    this.current = "I am a strong team player, great communicator, and will be an excellent addition to your organization.";
 })

@@ -1,5 +1,11 @@
-'use strict';
-var app = angular.module("personal");
-app.controller("Home", function(){
-
-})
+(function(){
+	'use strict';
+	
+	angular
+		.module("personal")
+		.controller("Home", Home)
+		
+	function Home(){
+		
+	}
+})();

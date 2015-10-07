@@ -1,5 +1,10 @@
-'use strict';
-var app = angular.module("personal");
-app.controller("Main", function(){
-    this.test = "Welcome.";
-})
+(function(){
+    'use strict';
+    
+    angular
+        .module("personal")
+        .controller("Main", Main)
+        
+        function Main(){            
+        }
+})();

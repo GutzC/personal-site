@@ -1,13 +1,13 @@
 (function(){
     'use strict';
-    
+
     angular
         .module("personal")
         .controller("Projects", Projects);
-        
+
     function Projects(){
-        this.test = "Welcome to the Project page.";
-        this.projects = [
+        var vm = this;
+        vm.projects = [
             {
                 name: "LDS Billboards",
                 screenshot: [{ image: "../../img/map-view.png", text: "Map View"}, {image: "../../img/list-view.png", text: "List View"}, { image: "../../img/list-view-add.png", text: "Add Billboard"}],
@@ -30,7 +30,7 @@
                 text: "A simple flashcard game for kids. Generates random flash cards, allowing Addition, Subtraction, Multiplication, and Division game modes."
             }
         ]
-    
-        this.myInterval = 4000;
+
+        vm.myInterval = 4000;
     }
 })();

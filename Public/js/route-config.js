@@ -1,10 +1,12 @@
 (function(){
     'use strict';
-    
+
 	angular
-        .module("personal")  
-        .config(config);        
-        
+        .module("personal")
+        .config(config);
+
+        angular.$inject()     
+
     function config($routeProvider){
         $routeProvider
             .when("/home", {
@@ -35,5 +37,5 @@
             .otherwise({
                 redirectTo: "/home"
             })
-    }	
+    }
 })();

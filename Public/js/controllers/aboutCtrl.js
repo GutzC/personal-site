@@ -1,12 +1,13 @@
 (function(){
     'use strict';
-    
+
     angular
         .module("personal")
         .controller("About", About)
-        
+
     function About(){
-        this.history = [
+        var vm = this;
+        vm.history = [
             {
                 link : "../../img/uvu.png",
                 description : "I initially graduated from Utah Valley University with a Bachelor of Science degree in Business Management, having an emphasis in Entrepreneurship. However, I returned to UVU a few years ago, and have been taking Computer Science classes part-time each evening. I love learning and have enjoyed having the freedom to pick classes that interest me versus pursuing a certificate."
@@ -20,6 +21,6 @@
                 description : "I have finally jumped into front-end development with both feet, recently completing an intensive full-time, three-month 'boot camp' at DevMountain, where I was able to sit down and code/learn 10-12 hours each day. It was awesome! The primary languages studied were related to the full MEAN stack, but I can't wait to pick up additional languages/technologies/practices in the future."
             }
         ]
-        this.current = "I am a strong team player, great communicator, and will be an excellent addition to your organization.";
+        vm.current = "I am a strong team player, great communicator, and will be an excellent addition to your organization.";
     }
 })();

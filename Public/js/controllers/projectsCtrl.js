@@ -9,6 +9,13 @@
         var vm = this;
         vm.projects = [
             {
+                name: "MACU Intranet - Home Page",
+                screenshot: [{ image: "../../img/map-view.png", text: "Map View"}, {image: "../../img/list-view.png", text: "List View"}, { image: "../../img/list-view-add.png", text: "Add Billboard"}],
+                repository: "#",
+                languages: ["HTML", "CSS", "Bootstrap", "jQuery", "Angular.JS", "Sharepoint 2013"],
+                text: "Worked with designers to add functionality to their mark-up."
+            },
+            {
                 name: "LDS Billboards",
                 screenshot: [{ image: "../../img/map-view.png", text: "Map View"}, {image: "../../img/list-view.png", text: "List View"}, { image: "../../img/list-view-add.png", text: "Add Billboard"}],
                 repository: "https://github.com/GutzC/ldsbillboard",

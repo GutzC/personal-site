@@ -1,23 +1,23 @@
-{
-	"ecmaFeatures": {
-		"jsx": true // Alert eslint that we are going to be working with JSX files
-	},
-	"env": { // Common environments we'll be working with
-		"browser": true,
-		"node": true,
-		"jquery": true
-	},
-	"rules": { // some base rules, will want to tweak to my own personal style and library use
-		"quotes": 0,
-		"no-trailing-spaces": 0,
-		"eol-last": 0,
-		"no-unused-vars": 0,
-		"no-underscore-dangle": 0,
-		"no-alert": 0,
-		"no-lone-blocks": 0
-	},
-	"globals": { // Notify eslint that these globals exist to have it ignore them (Bootsrap needs these global)
-		jQuery: true,
-		$: true
-	}
-}
+// {
+// 	"ecmaFeatures": {
+// 		"jsx": true // Alert eslint that we are going to be working with JSX files
+// 	},
+// 	"env": { // Common environments we'll be working with
+// 		"browser": true,
+// 		"node": true,
+// 		"jquery": true
+// 	},
+// 	"rules": { // some base rules, will want to tweak to my own personal style and library use
+// 		"quotes": 0,
+// 		"no-trailing-spaces": 0,
+// 		"eol-last": 0,
+// 		"no-unused-vars": 0,
+// 		"no-underscore-dangle": 0,
+// 		"no-alert": 0,
+// 		"no-lone-blocks": 0
+// 	},
+// 	"globals": { // Notify eslint that these globals exist to have it ignore them (Bootsrap needs these global)
+// 		jQuery: true,
+// 		$: true
+// 	}
+// }

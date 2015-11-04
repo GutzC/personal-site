@@ -10,10 +10,10 @@
         vm.projects = [
             {
                 name: "MACU Intranet - Home Page",
-                screenshot: [{ image: "../../img/map-view.png", text: "Map View"}, {image: "../../img/list-view.png", text: "List View"}, { image: "../../img/list-view-add.png", text: "Add Billboard"}],
+                screenshot: [{ image: "../../img/megamenu.png", text: "Dynamic Mega Menu"}, {image: "../../img/dailycommitments.png", text: "Daily Commitments"}, { image: "../../img/news.png", text: "News Stories"}],
                 repository: "#",
-                languages: ["HTML", "CSS", "Bootstrap", "jQuery", "Angular.JS", "Sharepoint 2013"],
-                text: "Worked with designers to add functionality to their mark-up."
+                languages: ["HTML", "CSS", "Angular.JS", "Sharepoint 2013"],
+                text: "Provided with HTML/CSS markup of project pages, I then got to hook everything up, create the necessary Sharepoint structures, and really make the page hum. I worked extensively with Microsoft API's and other third-party libraries to find the optimal solutions for a variety of problems."
             },
             {
                 name: "LDS Billboards",

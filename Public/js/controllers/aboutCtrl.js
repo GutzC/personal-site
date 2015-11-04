@@ -7,7 +7,7 @@
 
     function About(){
         var vm = this;
-        vm.history = [
+        vm.history = [            
             {
                 link : "../../img/uvu.png",
                 description : "I initially graduated from Utah Valley University with a Bachelor of Science degree in Business Management, having an emphasis in Entrepreneurship. However, I returned to UVU a few years ago, and have been taking Computer Science classes part-time each evening. I love learning and have enjoyed having the freedom to pick classes that interest me versus pursuing a certificate."
@@ -18,9 +18,13 @@
             },
             {
                 link : "../../img/devmtn860x860.png",
-                description : "I have finally jumped into front-end development with both feet, recently completing an intensive full-time, three-month 'boot camp' at DevMountain, where I was able to sit down and code/learn 10-12 hours each day. It was awesome! The primary languages studied were related to the full MEAN stack, but I can't wait to pick up additional languages/technologies/practices in the future."
+                description : "I made the jump into front-end development with both feet,completing an intensive full-time, three-month 'boot camp' at DevMountain, where I was able to sit down and code/learn 10-12 hours each day. It was awesome! The primary languages studied were related to the full MEAN stack, and helped open the door the many libraries, frameworks, and languages available in web development."
+            },
+            {
+                link : "../../img/itg-logo.png",
+                description : "The last sixth months have been a wonderful blur. ITG has provided me with my first real development job and I am loving it! My happiest times are when I can plug-in and get lost writing code. I have had the opportunity work with really great people and have recently completed my first full project, greatly deepening my knowledge and understanding of vanilla Javascript, AngularJS, and the various Sharepoint APIs."
             }
         ]
-        vm.current = "I am a strong team player, great communicator, and will be an excellent addition to your organization.";
+        vm.current = "I am so blessed to be a web developer! Digging AngularJS currently, but am like a kid in a candy store surrounded by all the web tooling/frameworks available right now. Most evenings you will find me working on personal projects as I dive deeper into Angular, D3, Gulp, React, Node, and a host of other tools.";
     }
 })();
